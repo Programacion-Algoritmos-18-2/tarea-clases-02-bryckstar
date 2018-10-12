@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package clase2;
+package Ejercicio2;
+
+
 
 /**
  *
@@ -18,9 +20,8 @@ public class Ejecutor {
         
         Precio p;
         p = new Precio();
-        System.out.println(p.euro);
-        p.euro = 10.1;
-        System.out.println(p.euro);
+        p.agregar(20.2);
+        System.out.println(p.obtener());
         
     }
     
