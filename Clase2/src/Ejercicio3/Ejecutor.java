@@ -19,8 +19,7 @@ public class Ejecutor {
      */
     public static void main(String[] args) {
         
-        Precio p;
-        p = new Precio();
+        Precio p = new Precio(); // Se llama a la clase 
         Precio n = new Precio (255);
         System.out.println(p.obtener());
         System.out.println(n.obtener());
